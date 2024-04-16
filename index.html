@@ -30,6 +30,11 @@
             display: flex;
             flex-direction: column;
             align-items: center; /* Центрирование содержимого по вертикали */
+            animation: fadeIn 2s ease-in-out forwards; /* Анимация появления */
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
         }
         .logo-and-name {
             display: flex;
